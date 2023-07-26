@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.container {
+    background-color: rgb(255, 11, 11);
+    width: 90%;
+    height: 90%;
+
+
+}
+
+.convert-option {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+.input-container {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.input-number{
+    width:300px;
+    margin: 20px;
+    height:100px;
+}
+ input{
+    width:100%;
+    height: 60%;
+    outline: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+}
+.formuala-container{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 93px;
+    display: flex;
+    align-items: center;
+}
+.formula-text{
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+ margin: 0px 15px 0 20px;
+ background-color: rgb(254, 169, 0);
+}
+.formula{
+    font-size: 15px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#equal{
+    font-size: 50px;
+
+}
+p{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
